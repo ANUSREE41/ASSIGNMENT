@@ -1,7 +1,7 @@
 import Foundation
  var integerArray: [Int] = [1, 6, 4, 8, 9, 3, 2]
  var resultArray = [Int]() 
- var finalArray = [Int]()
+
 
  var sortOperation = {
      (value1: Int, value2: Int) -> Bool in
