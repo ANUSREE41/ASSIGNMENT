@@ -1,5 +1,5 @@
 import Foundation
- class restaurantMenu {
+ class RestaurantMenu {
      var category: String
      var type: String
      let name: String
@@ -32,4 +32,4 @@ func isSpicy(item: String) -> Bool {
 }
 }
 
- let menu = restaurantMenu (category: "starters", type: "spicy", name: "ABC", quantity: 2, price: 150)
+ let menu = RestaurantMenu (category: "starters", type: "spicy", name: "ABC", quantity: 2, price: 150)

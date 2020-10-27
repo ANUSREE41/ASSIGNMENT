@@ -1,5 +1,5 @@
 import Foundation
- class car {
+ class Car {
      var company: String
      var model: String
      var seatCapacity: Int
@@ -33,4 +33,4 @@ func requireFiveSeat(seat: Int) -> Bool {
 }
 }
 
- let car1 = car (company: "ABC", model: "AAA", seatCapacity: 5, fuelType: "petrol", price: 600000)
+ let car1 = Car (company: "ABC", model: "AAA", seatCapacity: 5, fuelType: "petrol", price: 600000)
