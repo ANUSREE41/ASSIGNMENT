@@ -1,5 +1,3 @@
-import Foundation
-
 var arrrayOfDictionary = [
     [
         "name": "ABC",
@@ -18,11 +16,12 @@ var arrrayOfDictionary = [
 func dictionaryToArray (array: [[String:Any]]) {
 var resultArray = [Any]()
 
-    for i in array {
-    resultArray.append(i["name"])
-    resultArray.append(i["age"])
-    resultArray.append(i["Branch"])
+    for (index, value) in array.enumerated() {
+        for (key, subValue) in value {
+                resultArray.append(subValue)
+        }
     }
-print(resultArray)
+    print(resultArray)
 }
+
 dictionaryToArray (array:arrrayOfDictionary)
