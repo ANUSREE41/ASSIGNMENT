@@ -1,5 +1,5 @@
 import Foundation
- class movieBookingCounter {
+ class MovieBookingCounter {
      var category: String
      let name: String
      var numberOfSeat: Int
@@ -22,4 +22,4 @@ func nonHorror(movie: String) -> Bool {
 }
 }
 
- let seat =  movieBookingCounter(category: "humar", name: "DEF", numberOfSeat: 5, price: 500)
+ let seat =  MovieBookingCounter(category: "humar", name: "DEF", numberOfSeat: 5, price: 500)
