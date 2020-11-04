@@ -166,9 +166,9 @@ class Lecturer: Person{
     var monthlySalary: Int 
 
     override init() {
-        self.qualification = " "
-        self.designation = " "
-        self.monthlySalary = 0
+        qualification = " "
+        designation = " "
+        monthlySalary = 0
         super.init()
         nameOfPerson = " "
         dateOfBirth = " "
